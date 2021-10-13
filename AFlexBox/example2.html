@@ -1,0 +1,37 @@
+<!doctype html>
+<title>Example</title>
+<style>
+    .container {
+        display: flex;
+    }
+    
+    .red {
+        background: orangered;
+        flex-grow: 2;
+    }
+    
+    .green {
+        background: yellowgreen;
+        flex-grow: 2;
+    }
+    
+    .blue {
+        background: steelblue;
+    }
+    
+    .container>div {
+        font-size: 5vw;
+        padding: .5em;
+        color: white;
+    }
+</style>
+<!-- adding data in the items 3rd item-->
+<div class="container">
+    <div class="red">1</div>
+    <div class="green">2
+        <h5>This is heading5</h5>
+    </div>
+    <div class="blue">3
+        <p>This isa 3rd div and flex box itms can grow and shrink as required to git their content</p>
+    </div>
+</div>
